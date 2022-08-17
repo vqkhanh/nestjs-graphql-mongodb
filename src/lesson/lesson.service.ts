@@ -2,6 +2,7 @@ import { Lesson } from './lesson.entity';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { v4 as uuid } from 'uuid';
+import { Repository } from 'typeorm';
 
 @Injectable()
 export class LessonService {
